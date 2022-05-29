@@ -1,11 +1,9 @@
 {
   "name": "@kipkip/eslint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The ESLint config used by KipKip",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anovandri/kipkip-eslint-config.git"
@@ -20,5 +18,19 @@
   "bugs": {
     "url": "https://github.com/anovandri/kipkip-eslint-config/issues"
   },
-  "homepage": "https://github.com/anovandri/kipkip-eslint-config#readme"
+  "homepage": "https://github.com/anovandri/kipkip-eslint-config",
+  "dependencies": {},
+  "devDependencies": {
+    "semantic-release": "^12.4.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4",
+    "eslint-plugin-import": ">=2",
+    "eslint-plugin-jsx-a11y": ">=6",
+    "eslint-plugin-promise": ">=3",
+    "eslint-plugin-react": ">=7"
+  },
+  "engines": {
+    "node": ">=8.1.0"
+  }
 }
