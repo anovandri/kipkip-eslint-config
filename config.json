@@ -2,7 +2,8 @@
   "parser": "babel-eslint",
   "extends": [
     "plugin:jsx-a11y/recommended",
-    "plugin:promise/recommended"
+    "plugin:promise/recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   "env": {
     "browser": true,
