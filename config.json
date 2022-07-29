@@ -43,6 +43,7 @@
     "react"
   ],
   "rules": {
+    "@typescript-eslint/no-var-requires": "never",
     "array-bracket-spacing": [
       "error",
       "never"
